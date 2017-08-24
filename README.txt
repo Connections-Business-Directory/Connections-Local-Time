@@ -1,0 +1,99 @@
+=== Connections Business Local Time ===
+Contributors: shazahm1@hotmail.com
+Donate link: http://connections-pro.com/
+Tags: business directory, local time, clock
+Requires at least: 4.4
+Tested up to: 4.8
+Stable tag: 1.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+An extension for Connections Business Directory which adds the ability to show the local time of a business based or individual based on their address.
+
+== Description ==
+
+Connections Business Local Time extension is a remix of the fantastic [jClocksGMT World Clocks plugin](https://wordpress.org/plugins/jclocksgmt-wp/)
+that has been custom tailored for use with Connections Business Directory.
+
+How does it work?
+
+The local time zone is calculated from the latitude/longitude of either the first or preferred address from the entry in Connections.
+The latitude/longitude is then used to determine the time zone and the UTC offset in which the address is located using the Google Maps Time Zone API.
+
+With that information determined automagically, a clock is displayed in the the theme's sidebar showing the local time of the
+current entry being viewed.
+
+Features:
+
+* Automagically determines time zone and UTC offset using the latitude/longitude of either the first or preferred address from the entry being viewed.
+* Customizable widget.
+* Analog clock with 5 skin variations.
+* Digital clock with custom time formatting.
+* Display the local date with custom dat formatting.
+
+Here are some other great **free extensions** (with more on the way) that enhance your experience with Connections Business Directory:
+
+**Utility**
+
+* [Toolbar](http://wordpress.org/plugins/connections-toolbar/) :: Provides quick links to the admin pages from the admin bar.
+* [Login](http://wordpress.org/plugins/connections-business-directory-login/) :: Provides a simple to use login shortcode and widget.
+
+**Custom Fields**
+
+* [Business Hours](http://wordpress.org/plugins/connections-business-directory-hours/) :: Add business open hours.
+* [Income Level](http://wordpress.org/plugins/connections-business-directory-income-levels/) :: Add an income level.
+* [Education Level](http://wordpress.org/plugins/connections-business-directory-education-levels/) :: Add an education level.
+* [Languages](http://wordpress.org/plugins/connections-business-directory-languages/) :: Add languages spoken.
+* [Hobbies](https://wordpress.org/plugins/connections-business-directory-hobbies/) :: Add hobbies.
+
+**Misc**
+
+* [Face Detect](https://wordpress.org/plugins/connections-business-directory-face-detect/) :: Applies face detection before cropping an image.
+
+
+== Installation ==
+
+[Complete installation instructions can be found here.](https://connections-pro.com/documentation/local-time/#Installation)
+
+Using the WordPress Plugin Search
+
+1. Navigate to the `Add New` sub-page under the Plugins admin page.
+2. Search for `connections business directory local time`.
+3. The plugin should be listed first in the search results.
+4. Click the `Install Now` link.
+5. Lastly click the `Activate Plugin` link to activate the plugin.
+
+Uploading in WordPress Admin
+
+1. [Download the plugin zip file](http://wordpress.org/plugins/connections-business-directory-local-time/) and save it to your computer.
+2. Navigate to the `Add New` sub-page under the Plugins admin page.
+3. Click the `Upload` link.
+4. Select Connections Business Directory Local Time zip file from where you saved the zip file on your computer.
+5. Click the `Install Now` button.
+6. Lastly click the `Activate Plugin` link to activate the plugin.
+
+Using FTP
+
+1. [Download the plugin zip file](http://wordpress.org/plugins/connections-business-directory-local-time/) and save it to your computer.
+2. Extract the Connections Business Directory Local Time zip file.
+3. Create a new directory named `connections-local-time` directory in the `../wp-content/plugins/` directory.
+4. Upload the files from the folder extracted in Step 2.
+4. Activate the plugin on the Plugins admin page.
+
+== Frequently Asked Questions ==
+
+None yet....
+
+== Screenshots ==
+
+[Screenshots can be found here.](http://connections-pro.com/add-on/local-time/)
+
+== Changelog ==
+
+= 1.0 08/24/2017 =
+* Initial release.
+
+== Upgrade Notice ==
+
+= 1.0 =
+Initial release.
