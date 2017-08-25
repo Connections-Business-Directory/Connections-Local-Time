@@ -1,4 +1,4 @@
-=== Connections Business Local Time ===
+=== Connections Business Directory Local Time ===
 Contributors: shazahm1@hotmail.com
 Donate link: http://connections-pro.com/
 Tags: business directory, local time, clock
