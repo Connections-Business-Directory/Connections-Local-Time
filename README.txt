@@ -12,12 +12,12 @@ An extension for Connections Business Directory which adds the ability to show t
 
 == Description ==
 
-Connections Business Local Time extension is a remix of the fantastic [jClocksGMT World Clocks plugin](https://wordpress.org/plugins/jclocksgmt-wp/)
+Connections Business Directory Local Time extension is a remix of the fantastic [jClocksGMT World Clocks plugin](https://wordpress.org/plugins/jclocksgmt-wp/)
 that has been custom tailored for use with Connections Business Directory.
 
 How does it work?
 
-The local time zone is calculated from the latitude/longitude of either the first or preferred address from the entry in Connections.
+The local time zone is calculated from the latitude/longitude of either the first or preferred address from the entry in Connections Business Directory.
 The latitude/longitude is then used to determine the time zone and the UTC offset in which the address is located using the Google Maps Time Zone API.
 
 With that information determined automagically, a clock is displayed in the the theme's sidebar showing the local time of the
@@ -40,7 +40,7 @@ Here are some other great **free extensions** (with more on the way) that enhanc
 
 **Custom Fields**
 
-* [Business Hours](http://wordpress.org/plugins/connections-business-directory-hours/) :: Add business open hours.
+* [Business Open Hours](http://wordpress.org/plugins/connections-business-directory-hours/) :: Add business open hours.
 * [Income Level](http://wordpress.org/plugins/connections-business-directory-income-levels/) :: Add an income level.
 * [Education Level](http://wordpress.org/plugins/connections-business-directory-education-levels/) :: Add an education level.
 * [Languages](http://wordpress.org/plugins/connections-business-directory-languages/) :: Add languages spoken.
