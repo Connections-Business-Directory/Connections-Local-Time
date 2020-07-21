@@ -91,6 +91,17 @@ None yet....
 
 == Changelog ==
 
+= 1.1 07/21/2020 =
+* TWEAK: Add CSS classes and styles for clearing float and hiding time zone.
+* BUG: Fragment cache should use the Entry ID, not the User ID.
+* BUG: Respect the show time zone setting option value.
+* OTHER: Correct readme.txt URL/s.
+* OTHER: Correct typos in readme.txt.
+* OTHER: Update readme.txt URL/s to HTTPS.
+* OTHER: Update copyright year.
+* OTHER: Update readme.txt plugin header.
+* OTHER: Update plugin header name to be consistent with other addons.
+
 = 1.0 08/24/2017 =
 * Initial release.
 
@@ -98,3 +109,7 @@ None yet....
 
 = 1.0 =
 Initial release.
+
+= 1.1 =
+It is recommended to backup before updating. Requires WordPress >= 4.8 and PHP >= 5.6.20 PHP version >= 7.2 recommended.
+
