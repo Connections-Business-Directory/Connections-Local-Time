@@ -195,12 +195,18 @@ if ( ! class_exists( 'Connections_Local_Time' ) ) {
 			);
 
 			$options = json_encode( $atts );
+			$class   = array( 'jclockgmt' );
 			$uid     = uniqid();
 
-			$markup = '<div id="cn-clock-' . $uid . '" class="jclockgmt"></div>';
+			if ( empty( $atts['title'] ) ) {
+				$class[] = 'jclockgmt-no-title';
+			}
+
+			$css    = '<style>.widget.widget_cnw_clock:after { content: "";display: table;clear: both;} #cn-clock-' . $uid . '.jclockgmt-no-title .jcgmt-lbl {display: none;} .jcgmt-container {float: none;} .jcgmt-digital, .jcgmt-date {margin: 0;}</style>';
+			$markup = '<div id="cn-clock-' . $uid . '" ' . cnHTML::attribute( 'class', $class ) . '></div>';
 			$script = '<script>jQuery(document).ready( function(){ jQuery("#cn-clock-' . $uid . '").jClocksGMT(' . $options . ');' . '});</script>';
 
-			echo $markup . $script;
+			echo $css . $markup . $script;
 		}
 
 		/**
