@@ -9,7 +9,7 @@
  * Text Domain: connections-local-time
  * Domain Path: languages
  *
- * Copyright 2017  Steven A. Zahm  ( email : helpdesk@connections-pro.com )
+ * Copyright 2020  Steven A. Zahm  ( email : helpdesk@connections-pro.com )
  *
  * Connections Local Time is free software; you can redistribute it
  * and/or modify it under the terms of the GNU General Public License, version 2,
