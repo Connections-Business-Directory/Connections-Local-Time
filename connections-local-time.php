@@ -26,14 +26,14 @@
  * @package  Connections Local Time
  * @category Extension
  * @author   Steven A. Zahm
- * @version  1.0
+ * @version  1.1
  */
 
 if ( ! class_exists( 'Connections_Local_Time' ) ) {
 
 	final class Connections_Local_Time {
 
-		const VERSION = '1.0';
+		const VERSION = '1.1';
 
 		/**
 		 * @var Connections_Local_Time Stores the instance of this class.
