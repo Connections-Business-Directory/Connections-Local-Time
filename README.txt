@@ -1,12 +1,12 @@
 === Connections Business Directory Local Time ===
 Contributors: shazahm1@hotmail.com
-Donate link: http://connections-pro.com/
+Donate link: https://connections-pro.com/
 Tags: business directory, local time, clock
 Requires at least: 4.4
 Tested up to: 4.8
 Stable tag: 1.0
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 An extension for Connections Business Directory which adds the ability to show the local time of a business or an individual based on their address.
 
@@ -35,15 +35,15 @@ Here are some other great **free extensions** (with more on the way) that enhanc
 
 **Utility**
 
-* [Toolbar](http://wordpress.org/plugins/connections-toolbar/) :: Provides quick links to the admin pages from the admin bar.
-* [Login](http://wordpress.org/plugins/connections-business-directory-login/) :: Provides a simple to use login shortcode and widget.
+* [Toolbar](https://wordpress.org/plugins/connections-toolbar/) :: Provides quick links to the admin pages from the admin bar.
+* [Login](https://wordpress.org/plugins/connections-business-directory-login/) :: Provides a simple to use login shortcode and widget.
 
 **Custom Fields**
 
-* [Business Open Hours](http://wordpress.org/plugins/connections-business-directory-hours/) :: Add business open hours.
-* [Income Level](http://wordpress.org/plugins/connections-business-directory-income-levels/) :: Add an income level.
-* [Education Level](http://wordpress.org/plugins/connections-business-directory-education-levels/) :: Add an education level.
-* [Languages](http://wordpress.org/plugins/connections-business-directory-languages/) :: Add languages spoken.
+* [Business Open Hours](https://wordpress.org/plugins/connections-business-directory-hours/) :: Add business open hours.
+* [Income Level](https://wordpress.org/plugins/connections-business-directory-income-levels/) :: Add an income level.
+* [Education Level](https://wordpress.org/plugins/connections-business-directory-education-levels/) :: Add an education level.
+* [Languages](https://wordpress.org/plugins/connections-business-directory-languages/) :: Add languages spoken.
 * [Hobbies](https://wordpress.org/plugins/connections-business-directory-hobbies/) :: Add hobbies.
 
 **Misc**
@@ -65,7 +65,7 @@ Using the WordPress Plugin Search
 
 Uploading in WordPress Admin
 
-1. [Download the plugin zip file](http://wordpress.org/plugins/connections-business-directory-local-time/) and save it to your computer.
+1. [Download the plugin zip file](https://wordpress.org/plugins/connections-business-directory-local-time/) and save it to your computer.
 2. Navigate to the `Add New` sub-page under the Plugins admin page.
 3. Click the `Upload` link.
 4. Select Connections Business Directory Local Time zip file from where you saved the zip file on your computer.
@@ -74,7 +74,7 @@ Uploading in WordPress Admin
 
 Using FTP
 
-1. [Download the plugin zip file](http://wordpress.org/plugins/connections-business-directory-local-time/) and save it to your computer.
+1. [Download the plugin zip file](https://wordpress.org/plugins/connections-business-directory-local-time/) and save it to your computer.
 2. Extract the Connections Business Directory Local Time zip file.
 3. Create a new directory named `connections-local-time` directory in the `../wp-content/plugins/` directory.
 4. Upload the files from the folder extracted in Step 2.
@@ -86,7 +86,7 @@ None yet....
 
 == Screenshots ==
 
-[Screenshots can be found here.](http://connections-pro.com/add-on/local-time/)
+[Screenshots can be found here.](https://connections-pro.com/add-on/local-time/)
 
 == Changelog ==
 
