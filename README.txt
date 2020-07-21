@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-An extension for Connections Business Directory which adds the ability to show the local time of a business based or individual based on their address.
+An extension for Connections Business Directory which adds the ability to show the local time of a business or an individual based on their address.
 
 == Description ==
 
@@ -29,7 +29,7 @@ Features:
 * Customizable widget.
 * Analog clock with 5 skin variations.
 * Digital clock with custom time formatting.
-* Display the local date with custom dat formatting.
+* Display the local date with custom date formatting.
 
 Here are some other great **free extensions** (with more on the way) that enhance your experience with Connections Business Directory:
 
