@@ -326,7 +326,7 @@ class cnClock_Widget extends WP_Widget {
 
 					Connections_Local_Time::render(
 						array(
-							'title'      => $timezone->get_name(),
+							'title'      => cnFormatting::toBoolean( $instance['show_timezone'] ) ? $timezone->get_name() : '',
 							'offset'     => (string) $offset,
 							'dst'        => FALSE, // This is taken into account in {$offset}
 							'digital'    => cnFormatting::toBoolean( $instance['show_digital'] ),
