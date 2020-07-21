@@ -252,6 +252,12 @@ class cnClock_Widget extends WP_Widget {
 
 			$instance = wp_parse_args( $instance, $this->defaults() );
 
+			// Query the entry.
+			$result = Connections_Directory()->retrieve->entry( urldecode( cnQuery::getVar( 'cn-entry-slug' ) ) );
+
+			// Setup the entry object
+			$entry = new cnEntry( $result );
+
 			// Ensure the scripts are enqueued that are required by the widget.
 			wp_enqueue_script( 'jquery-jClocksGMT' );
 
@@ -279,9 +285,9 @@ class cnClock_Widget extends WP_Widget {
 			 * the user did not click the "Save" button on the widget.
 			 */
 
-			$user = wp_get_current_user();
+			//$user = wp_get_current_user();
 
-			$key   = 'user-' . $user->ID;
+			$key   = 'cn-entry-' . $entry->getId();
 			$group = 'cnw_clock-' . $this->number;
 
 			//cnCache::clear( TRUE, 'transient', 'cnw' );
@@ -291,16 +297,8 @@ class cnClock_Widget extends WP_Widget {
 
 			if ( ! $fragment->get() ) {
 
-				// Grab an instance of the Connections object.
-				$connections = Connections_Directory();
-				$timezone    = NULL;
-				$offset      = NULL;
-
-				// Query the entry.
-				$result = $connections->retrieve->entry( urldecode( cnQuery::getVar( 'cn-entry-slug' ) ) );
-
-				// Setup the entry object
-				$entry = new cnEntry( $result );
+				$timezone = null;
+				$offset   = null;
 
 				$preferred = $entry->addresses->getPreferred();
 
