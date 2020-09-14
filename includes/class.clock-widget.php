@@ -302,27 +302,32 @@ class cnClock_Widget extends WP_Widget {
 
 				$preferred = $entry->addresses->getPreferred();
 
-				if ( ! is_null( $preferred ) ) {
+				if ( $preferred instanceof cnAddress ) {
 
-					$offset = $preferred->getTimezone()->get_utc_offset( 'g' );
+					$timezone = $preferred->getTimezone();
+
+					if ( $timezone instanceof cnTimezone ) {
+
+						$offset = $timezone->get_utc_offset( 'g' );
+					}
 
 				} else {
 
 					/** @var cnAddress|null $address */
 					$address = $entry->addresses->getCollection()->first();
 
-					if ( ! is_null( $address ) ) {
+					if ( $address instanceof cnAddress ) {
 
 						$timezone = $address->getTimezone();
 
-						if ( ! is_wp_error( $timezone ) ) {
+						if ( $timezone instanceof cnTimezone ) {
 
 							$offset = $timezone->get_utc_offset( 'g' );
 						}
 					}
 				}
 
-				if ( ! is_null( $offset ) && is_a( $timezone, 'cnTimezone' ) ) {
+				if ( ! is_null( $offset ) && $timezone instanceof cnTimezone ) {
 
 					Connections_Local_Time::render(
 						array(
