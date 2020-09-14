@@ -91,6 +91,11 @@ None yet....
 
 == Changelog ==
 
+= 1.2 09/14/2020 =
+* TWEAK: Check for instance of `cnAddress` and `cnTimezone` before attempting access to their properties.
+* OTHER: Update "Tested up to:" to version 5.5.
+* OTHER: Bump "Requires at least: 5.0" to version 5.0.
+
 = 1.1 07/21/2020 =
 * TWEAK: Add CSS classes and styles for clearing float and hiding time zone.
 * BUG: Fragment cache should use the Entry ID, not the User ID.
@@ -113,3 +118,5 @@ Initial release.
 = 1.1 =
 It is recommended to backup before updating. Requires WordPress >= 4.8 and PHP >= 5.6.20 PHP version >= 7.2 recommended.
 
+= 1.2 =
+It is recommended to backup before updating. Requires WordPress >= 5.0 and PHP >= 5.6.20 PHP version >= 7.2 recommended.
