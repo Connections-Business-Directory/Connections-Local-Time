@@ -3,7 +3,7 @@
  * Plugin Name: Connections Business Directory Extension - Local Time
  * Plugin URI: https://connections-pro.com/add-on/local-time/
  * Description: An extension for Connections Business Directory which adds the ability to show the local time of a business based or individual based on their address.
- * Version: 1.0
+ * Version: 1.2
  * Author: Steven A. Zahm
  * Author URI: https://connections-pro.com/
  * Text Domain: connections-local-time
@@ -26,14 +26,14 @@
  * @package  Connections Local Time
  * @category Extension
  * @author   Steven A. Zahm
- * @version  1.1
+ * @version  1.2
  */
 
 if ( ! class_exists( 'Connections_Local_Time' ) ) {
 
 	final class Connections_Local_Time {
 
-		const VERSION = '1.1';
+		const VERSION = '1.2';
 
 		/**
 		 * @var Connections_Local_Time Stores the instance of this class.
