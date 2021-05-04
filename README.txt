@@ -2,10 +2,10 @@
 Contributors: shazahm1@hotmail.com
 Donate link: https://connections-pro.com/
 Tags: business directory, local time, clock
-Requires at least: 5.0
-Tested up to: 5.5
+Requires at least: 5.1
+Tested up to: 5.7
 Requires PHP: 5.6.20
-Stable tag: 1.2
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -91,6 +91,12 @@ None yet....
 
 == Changelog ==
 
+= 1.2.1 05/04/2020 =
+* TWEAK: Remove use of `create_function()`.
+* DEV: Correct code alignment.
+* DEV: Update plugin header.
+* DEV: Update README.txt plugin header.
+
 = 1.2 09/14/2020 =
 * TWEAK: Check for instance of `cnAddress` and `cnTimezone` before attempting access to their properties.
 * OTHER: Update "Tested up to:" to version 5.5.
@@ -120,3 +126,6 @@ It is recommended to backup before updating. Requires WordPress >= 4.8 and PHP >
 
 = 1.2 =
 It is recommended to backup before updating. Requires WordPress >= 5.0 and PHP >= 5.6.20 PHP version >= 7.2 recommended.
+
+= 1.2.1 =
+It is recommended to backup before updating. Requires WordPress >= 5.1 and PHP >= 5.6.20 PHP version >= 7.2 recommended.
