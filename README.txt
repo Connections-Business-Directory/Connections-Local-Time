@@ -2,8 +2,8 @@
 Contributors: shazahm1@hotmail.com
 Donate link: https://connections-pro.com/
 Tags: business directory, local time, clock
-Requires at least: 5.0
-Tested up to: 5.5
+Requires at least: 5.1
+Tested up to: 5.7
 Requires PHP: 5.6.20
 Stable tag: 1.2
 License: GPLv2 or later
