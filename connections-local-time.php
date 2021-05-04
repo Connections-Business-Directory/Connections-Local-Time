@@ -269,7 +269,7 @@ if ( ! class_exists( 'Connections_Local_Time' ) ) {
 				}
 			);
 
-			return FALSE;
+			return false;
 		}
 	}
 
