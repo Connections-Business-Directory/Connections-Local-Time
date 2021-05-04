@@ -1,32 +1,25 @@
 <?php
 /**
- * Plugin Name: Connections Business Directory Extension - Local Time
- * Plugin URI: https://connections-pro.com/add-on/local-time/
- * Description: An extension for Connections Business Directory which adds the ability to show the local time of a business based or individual based on their address.
- * Version: 1.2
- * Author: Steven A. Zahm
- * Author URI: https://connections-pro.com/
- * Text Domain: connections-local-time
- * Domain Path: languages
+ * An extension for Connections Business Directory which adds the ability to show the local time of a business based or individual based on their address.
  *
- * Copyright 2020  Steven A. Zahm  ( email : helpdesk@connections-pro.com )
+ * @package   Connections Business Directory Extension - Local Time
+ * @category  Extension
+ * @author    Steven A. Zahm
+ * @license   GPL-2.0+
+ * @link      https://connections-pro.com
+ * @copyright 2021 Steven A. Zahm
  *
- * Connections Local Time is free software; you can redistribute it
- * and/or modify it under the terms of the GNU General Public License, version 2,
- * as published by the Free Software Foundation.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with Connections Local Time; if not, see <http://www.gnu.org/licenses/>.
- *
- * @package  Connections Local Time
- * @category Extension
- * @author   Steven A. Zahm
- * @version  1.2
+ * @wordpress-plugin
+ * Plugin Name:       Connections Business Directory Extension - Local Time
+ * Plugin URI:        https://connections-pro.com/add-on/local-time/
+ * Description:       An extension for Connections Business Directory which adds the ability to show the local time of a business based or individual based on their address.
+ * Version:           1.2
+ * Author:            Steven A. Zahm
+ * Author URI:        https://connections-pro.com
+ * License:           GPL-2.0+
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain:       connections-local-time
+ * Domain Path:       /languages
  */
 
 if ( ! class_exists( 'Connections_Local_Time' ) ) {
